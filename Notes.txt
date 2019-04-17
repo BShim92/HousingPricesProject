@@ -1,0 +1,4 @@
+min max scaling on prices to go between 0 and 1
+minmaxscaler
+mlpRegressor
+Google "keras regression"
