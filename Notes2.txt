@@ -1,0 +1,5 @@
+linear, boostedgradienttreeregressor, linearregressor, randomforestregressor, support vector regressor
+
+use random forest to rank importance, take features in and out based on importance
+classifying locations together
+
