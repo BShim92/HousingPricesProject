@@ -41,8 +41,11 @@ RMSLE = 0.12285
 
 ## Neural Network
 Hidden Layer (20 units, Linear)
+
 Dropout Layer (0.5)
+
 Hidden Layer (20 units, Linear)
+
 Dropout Layer (0.5)
 
 220 Epochs
@@ -51,6 +54,7 @@ RMSLE = 0.12770
 
 ## Stacked Model
 Weighted average of all the models according to each model's RMSLE
+
 Weight = 1/(RMSLE^4)
 
 RMSLE = 0.11512
