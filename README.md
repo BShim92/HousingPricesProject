@@ -16,27 +16,27 @@
 ### Random Forest
 - Produced a feature importance list that was used in the other models. In the other models, the number of columns to drop (dropcolumns) was treated as a hyperparameter. For example, dropcolumns = 50, would mean that the 50 least important columns were excluded from the model. This lead to significant increases in model accuracies.
 
-RMSLE = 0.146
+**RMSLE = 0.146**
 
 ### XGBoost
-RMSLE = 0.130
+**RMSLE = 0.130**
 
 ### Linear 
 - Target Variable (Sale Price) was logged.
 - dropcolumns = 217
 
-RMSLE = 0.11748
+**RMSLE = 0.11748**
 
 ### Lasso
 - Target Variable was logged.
 - dropcolumns = 204
 
-RMSLE = 0.11718
+**RMSLE = 0.11718**
 
 ### Support Vector (Polynomial)
 - C = 200, Degree = 6, Epsilon = 100, Coef0 = 2
 
-RMSLE = 0.12285
+**RMSLE = 0.12285**
 
 ### Neural Network
 - Standard scaling for input variables.
@@ -48,14 +48,23 @@ RMSLE = 0.12285
 - Dropout Layer (0.5)
 - 220 Epochs
 
-RMSLE = 0.12770
+**RMSLE = 0.12770**
 
 ### Stacked Model
 - Weighted average of all the models according to each model's RMSLE
   - Weight = 1/(RMSLE^4)
 
-RMSLE = 0.11512
+**RMSLE = 0.11512**
 
 ### Results
-- 92nd Percentile
+Model | Kaggle RMSLE
+Random Forest | 0.146
+XGBoost | 0.130
+Linear | 0.11748
+Lasso | 0.11718
+Support Vector | 0.12285
+Neural Network | 0.12770
+**Stacked** | **0.11512**
+
+**92nd Percentile**
 
