@@ -9,7 +9,7 @@ Replaced Missing Values with 0, 'NONE', Median, Mode
 
 Removed Outliers
 
-Created ration values (Living Space/Lot Area)
+Created ratio values (Living Space/Lot Area)
 
 Changed years to years since (2014 becomes 5)
 
