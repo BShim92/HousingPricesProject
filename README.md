@@ -1,7 +1,7 @@
 # Housing Price Predictions
 
 ## Team Members
-- Fatime Baig
+- Fatima Baig
 - Davinder Dole
 - Branden Shimamoto
 - Shetu Vithlani
