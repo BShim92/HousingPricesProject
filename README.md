@@ -6,9 +6,13 @@ Scoring metric was RMSLE (Root Mean Squared Log Error).
 
 # Feature Clean Up/Engineering
 Replaced Missing Values with 0, 'NONE', Median, Mode
+
 Removed Outliers
+
 Created ration values (Living Space/Lot Area)
+
 Changed years to years since (2014 becomes 5)
+
 Logged and Squared Columns
 
 # Models
