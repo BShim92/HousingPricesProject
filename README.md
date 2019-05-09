@@ -58,13 +58,14 @@
 
 ### Results
 Model | Kaggle RMSLE
+--- | ---
 Random Forest | 0.146
 XGBoost | 0.130
 Linear | 0.11748
 Lasso | 0.11718
 Support Vector | 0.12285
 Neural Network | 0.12770
-**Stacked** | **0.11512**
+**_Stacked_** | **_0.11512_** |
 
-**92nd Percentile**
+**_92nd Percentile_**
 
