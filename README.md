@@ -24,19 +24,23 @@ RMSLE = 0.146
 ## XGBoost
 RMSLE = 0.130
 
-## Linear Models
+## Linear 
 Target Variable (Sale Price) was logged.
 
-Linear 
 dropcolumns = 217
+
 RMSLE = 0.11748
 
-Lasso 
+## Lasso
+Target Variable (Sale Price) was logged.
+
 dropcolumns = 204
+
 RMSLE = 0.11718
 
 ## Support Vector Regression (Polynomial)
 C = 200, Degree = 6, Epsilon = 100, Coef0 = 2
+
 RMSLE = 0.12285
 
 ## Neural Network
