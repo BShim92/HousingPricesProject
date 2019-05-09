@@ -38,7 +38,7 @@ dropcolumns = 204
 
 RMSLE = 0.11718
 
-## Support Vector Regression (Polynomial)
+## Support Vector (Polynomial)
 C = 200, Degree = 6, Epsilon = 100, Coef0 = 2
 
 RMSLE = 0.12285
