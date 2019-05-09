@@ -32,7 +32,7 @@ dropcolumns = 217
 RMSLE = 0.11748
 
 ## Lasso
-Target Variable (Sale Price) was logged.
+Target Variable was logged.
 
 dropcolumns = 204
 
@@ -44,6 +44,9 @@ C = 200, Degree = 6, Epsilon = 100, Coef0 = 2
 RMSLE = 0.12285
 
 ## Neural Network
+Standard scaling for input variables.
+Target variable was logged.
+
 Hidden Layer (20 units, Linear)
 
 Dropout Layer (0.5)
